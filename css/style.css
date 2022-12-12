@@ -1,0 +1,153 @@
+body {
+    background: TransformStreamDefaultController;
+    font-family: verdana, georgia, serif;
+    color: #333; 
+    font-size: 1.2rem;
+    line-height: 1.6 em;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+
+h2 {
+    color: #6930C3;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+main{
+    padding: 30px 0px 50px 0px;
+}
+
+footer {
+    padding: 30px 0px;
+}
+
+.pagina-principal {
+    background: url("../imagenes/fondo.jpg") no-repeat;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.presentacion {
+    border-radius: 10px;;
+    width: 300px;
+    top: 30px;
+    position: sticky;
+    padding: 10px 20px;
+}
+
+.presentacion .presentacion-informacion {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.presentacion .presentacion-imagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.producto {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto .producto-imagen {
+    width: 350px;
+    border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+}
+
+.producto .producto-informacion {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto min-content;
+    padding: 10px 24px 20px 0px;
+}
+
+.producto .producto-footer {
+    display: flex;
+    justify-content: end;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 380px;
+    min-height: 450px;
+    width: 100%;
+}
+
+.servicio .servicio-informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.servicio .servicio-informacion h4 {
+    padding: 0px 24px; 
+}
+
+.servicio .servicio-informacion p {
+    padding: 0px 24px; 
+}
+
+.servicio-informacion img {
+    object-fit: contain;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.servicio-contactar {
+    display: flex !important;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.servicio-contactar img {
+    width: 25px;
+}
+
+.container {
+    width:85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.miembro {
+    padding: 24px;
+}
+
+.miembro img {
+    width: 150px;
+}

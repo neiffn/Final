@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neiff Natalia - Trabajo Final</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="index.html">
+                            <img src="imagenes/nn-logo.png" alt="Logo grande">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="inicio.html">
+                        <img src="imagenes/logo.jpeg" alt="Logo" height="24">
+                      </a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link" href="inicio.html">Inicio</a></li>
+                            <li><a class="nav-link" href="productos.html">Productos</a></li>
+                            <li><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li><a class="nav-link" href="acerca.html">Acerca</a></li>
+                            <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <section class="col">
+                <div class="mb-5">
+                    <h2>Servicios</h2>
+                    <p>
+                        Ofrezco una amplia variedad de servicios relacionado al diseño gráfico y arte digital. Te invito a ver con mayor detalle los siguientes tipos de servicio que puedo ofrecerte.
+                    </p>
+                </div>
+
+                <div class="servicios">
+                    <div class="servicio shadow">
+                        <div class="servicio-informacion">
+                            <img src="imagenes/branding.webp" alt="Branding">
+                            <h4>Branding</h4>
+                            <p>
+                                Te ayudo a hacer crecer tu marca o negocio creando una percepción fuerte y positiva de la empresa, sus productos o servicios con la combinación de elementos como el logotipo, el diseño, la declaración de intenciones y una temática coherente en todas las comunicaciones.
+                            </p>
+                        </div>
+                        <div class="servicio-footer">
+                            <button class="btn btn-primary servicio-contactar">
+                                <img src="imagenes/whatsapp.png" alt="whatsapp"><span>Contactar</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="servicio shadow">
+                        <div class="servicio-informacion">
+                            <img src="imagenes/diseño-web.jpg" alt="Diseño web">
+                            <h4>Diseño web</h4>
+                            <p>
+                                Te ayudo a crear una página web visualmente atractiva e intuitiva que ayude a tus clientes a saber todo lo que necesiten, podes agregar información de tu empresa, productos o servicios e incluso un carrito de compras.
+                            </p>
+                            <p>
+                                Por ejemplo: <a href="https://www.cervesiabar.com/copia-de-beneficiossn">Menú de Cervesiabar</a>
+                            </p>
+                        </div>
+                        <div class="servicio-footer">
+                            <button class="btn btn-primary servicio-contactar" onclick="irAWhatsApp()">
+                                <img src="imagenes/whatsapp.png" alt="whatsapp"><span>Contactar</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="servicio shadow">
+                        <div class="servicio-informacion">
+                            <img src="imagenes/community-management.webp" alt="Community management">
+                            <h4>Community management</h4>
+                            <p>
+                                Te ayudo a construir y administrar la comunidad online de tu marca u/o empresa y gestionar la identidad y su  imagen, creando y manteniendo relaciones estables y duraderas con sus clientes y fans en internet.
+                            </p>
+                        </div>
+                        <div class="servicio-footer">
+                            <button class="btn btn-primary servicio-contactar" onclick="irAWhatsApp()">
+                                <img src="imagenes/whatsapp.png" alt="whatsapp"><span>Contactar</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="servicio shadow">
+                        <div class="servicio-informacion">
+                            <img src="imagenes/ilustracion-digital.webp" alt="Ilustracion digital">
+                            <h4>Ilustración digital</h4>
+                            <p>
+                                Puedo realizar ilustraciones digitales únicas y atractivas que se adapten a tus necesidades, ya sea para uso personal o comercial, en formato digital para web o adaptado para impresión.
+                            </p>
+                        </div>
+                        <div class="servicio-footer">
+                            <button class="btn btn-primary servicio-contactar" onclick="irAWhatsApp()">
+                                <img src="imagenes/whatsapp.png" alt="whatsapp"><span>Contactar</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="col-auto">
+                <div class="presentacion bg-light shadow">
+                    <div class="presentacion-informacion">
+                        <img class="presentacion-imagen" src="imagenes/natalia-neiff.jfif">
+                        <span class="fw-bold">Natalia Neiff</span>
+                    </div>
+                    <hr>
+                    <span>
+                        <strong>Correo: </strong><a href="mailto:nn.designer.arg@gmail.com">nn.designer.arg@gmail.com</a>
+                    </span>
+                    <span>
+                        <strong>WhatsApp: </strong><a href="" onclick="irAWhatsApp()">3364-373876</a>
+                    </span>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="bg-light">
+        <div class="container">
+            Página diseñada por Neiff Natalia cómo Trabajo Final. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="js/final.js" type="text/javascript"></script>
+</body>
+
+</html>

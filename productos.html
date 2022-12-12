@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neiff Natalia - Trabajo Final</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="index.html">
+                            <img src="imagenes/nn-logo.png" alt="Logo grande">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="inicio.html">
+                        <img src="imagenes/logo.jpeg" alt="Logo" height="24">
+                      </a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link" href="inicio.html">Inicio</a></li>
+                            <li><a class="nav-link" href="productos.html">Productos</a></li>
+                            <li><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li><a class="nav-link" href="acerca.html">Acerca</a></li>
+                            <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <section class="col">
+                <div class="mb-5">
+                    <h2>Productos</h2>
+                </div>
+
+                <div class="productos">
+                    <div class="producto shadow">
+                        <img src="imagenes/cuaderno-estampado-1.jpg" alt="Cuaderno estampado"
+                            class="producto-imagen">
+                        <div class="producto-informacion">
+                            <div class="producto-descripcion">
+                                <h4 class="pb-3 text-dark">Cuaderno estampado</h4>
+                                <p>
+                                    Cuaderno de diseño y colección con temática floral, realizado a partir de ilustraciones con técnicas tradicionales de acuarela combinado con técnicas digitales. Conocé todos los diseños de la colección y elegí la que más te guste.
+                                </p>
+                                <p>
+                                    <strong class="text-info">Precio:</strong> $ 450.00
+                                </p>
+                            </div>
+                            <div class="producto-footer">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#productoModal">
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="producto shadow">
+                        <img src="imagenes/tarjetas.jpg" alt="Tarjeta de presentación" class="producto-imagen">
+                        <div class="producto-informacion">
+                            <div class="producto-descripcion">
+                                <h4 class="pb-3 text-dark">Tarjeta de presentación</h4>
+                                <p>
+                                    Tarjetas de presentación formato rectangular por 30 unidades en medidas de 7cm x 5cm a color en papel ilustración de 170 gramos.                                         
+                                </p>
+                                <p>
+                                    Disponible también en papeles ilustración de 130 gramos y 300 gramos, consultar disponibilidad antes de comprar (Diseño con coste adicional).
+                                </p>
+                                <p>
+                                    <strong class="text-info">Precio:</strong> $ 379.99
+                                </p>
+                            </div>
+                            <div class="producto-footer">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#productoModal">
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="producto shadow">
+                        <img src="imagenes/caja-producto.png" alt="Caja de producto" class="producto-imagen">
+                        <div class="producto-informacion">
+                            <div class="producto-descripcion">
+                                <h4 class="pb-3 text-dark">Caja de producto</h4>
+                                <p>
+                                    Packaging de producto estándar en forma de cubo, elaborada en papel de 300 gramos a color o papel kraft impreso.
+                                </p>
+                                <p>
+                                    Disponible en medidas de 7cm x 7cm, 8,5cm x  8,5cm, 10cm x 10cm y 12cm x 12cm.
+                                </p>
+                                <p>
+                                    <strong class="text-info">Precio:</strong> $ 850.00
+                                </p>
+                            </div>
+                            <div class="producto-footer">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#productoModal">
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="col-auto">
+                <div class="presentacion bg-light shadow">
+                    <div class="presentacion-informacion">
+                        <img class="presentacion-imagen" src="imagenes/natalia-neiff.jfif">
+                        <span class="fw-bold">Natalia Neiff</span>
+                    </div>
+                    <hr>
+                    <span>
+                        <strong>Correo: </strong><a href="mailto:nn.designer.arg@gmail.com">nn.designer.arg@gmail.com</a>
+                    </span>
+                    <span>
+                        <strong>WhatsApp: </strong><a href="" onclick="irAWhatsApp()">3364-373876</a>
+                    </span>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="bg-light">
+        <div class="container">
+            Página diseñada por Neiff Natalia cómo Trabajo Final. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <div class="modal fade" id="productoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header text-primary">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Comprar producto</h1>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-dark">¡Muchas gracias por decidir comprar este producto!</h4>
+
+                    <div class="py-2">
+                        <p>Por favor, decínos dónde vivís para realizar el envío</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioCompra" id="radioSanNicolas"
+                                checked onclick="cambiarPrecioDeEnvio(true)">
+                            <label class="form-check-label" for="radioSanNicolas">
+                                San Nicolás de los Arroyos
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioCompra" id="radioCercaSanNicolas" onclick="cambiarPrecioDeEnvio(true)">
+                            <label class="form-check-label" for="radioCercaSanNicolas">
+                                A 40 kilómetros de San Nicolás de los Arroyos
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioCompra" id="radioFueraSanNicolas" onclick="cambiarPrecioDeEnvio(false)">
+                            <label class="form-check-label" for="radioFueraSanNicolas">
+                                Fuera de San Nicolás de los Arroyos
+                            </label>
+                        </div>
+                    </div>
+
+                    <p class="mt-2">
+                        El costo de envío es <span id="costoEnvio" class="fw-bold">gratis</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="cambiarPrecioDeEnvio(true)">Regresar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="cambiarPrecioDeEnvio(true)"
+                        id="botonProductoComprado">¡Comprar ya!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="productoComprado" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto text-info">¡Producto comprado!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                El producto será enviado dentro de los próximos días al destino indicado.
+            </div>
+        </div>
+    </div>
+
+    <script src="js/final.js" type="text/javascript"></script>
+</body>
+
+</html>

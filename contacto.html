@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neiff Natalia - Trabajo Final</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <a href="inicio.html">
+                            <img src="imagenes/nn-logo.png" alt="Logo grande">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="inicio.html">
+                        <img src="imagenes/logo.jpeg" alt="Logo" height="24">
+                      </a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li><a class="nav-link" href="productos.html">Productos</a></li>
+                            <li><a class="nav-link" href="servicios.html">Servicios</a></li>
+                            <li><a class="nav-link" href="acerca.html">Acerca</a></li>
+                            <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+      
+        <div class="row">
+            <section class="col">
+                <div class="mb-5">
+                    <h2>Contacto</h2>
+                </div>
+
+                <div>
+                    <h4>Formulario de contacto</h4>
+                    <p>Puedes contactarme para cualquier consulta o duda que tengas. Solo llena el siguiente formulario con las informaciones necesarias.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo" aria-describedby="emailCompartir">
+                            <div id="emailCompartir" class="form-text">Nunca compartiré tu correo con nadie</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Número de teléfono (WhatsApp)</label>
+                            <input type="text" class="form-control" id="telefono" aria-describedby="telefonoCompartir">
+                            <div id="telefonoCompartir" class="form-text">Puedo tener una comunicación más directa con vos si así lo deseas</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button type="reset" class="btn btn-primary" id="botonEnviarFormulario">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <aside class="col-auto">
+                <div class="presentacion bg-light shadow">
+                    <div class="presentacion-informacion">
+                        <img class="presentacion-imagen" src="imagenes/natalia-neiff.jfif">
+                        <span class="fw-bold">Natalia Neiff</span>
+                    </div>
+                    <hr>
+                    <span>
+                        <strong>Correo: </strong><a href="mailto:nn.designer.arg@gmail.com">nn.designer.arg@gmail.com</a>
+                    </span>
+                    <span>
+                        <strong>WhatsApp: </strong><a href="" onclick="irAWhatsApp()">3364-373876</a>
+                    </span>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="bg-light">
+        <div class="container">
+            Página diseñada por Neiff Natalia cómo Trabajo Final. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="enviarFormulario" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto text-info">¡Mensaje enviado!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Estaré leyendo el mensaje que has enviado. Me pondré en contacto con vos en los próximos días.
+            </div>
+        </div>
+    </div>
+
+    <script src="js/final.js" type="text/javascript"></script>
+</body>
+
+</html>
